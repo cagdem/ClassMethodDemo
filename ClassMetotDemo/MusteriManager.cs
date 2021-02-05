@@ -17,7 +17,7 @@ namespace ClassMetotDemo
         public void Listele(Array musteriler)
         { 
             Console.WriteLine("Musteri listesi: ");
-            Console.WriteLine("---------------------");
+            Console.WriteLine("-------------------");
             foreach (Musteri musteri in musteriler)
             {
                 Console.WriteLine(musteri.Ad);
